@@ -1,0 +1,518 @@
+/* <--------------- Common CSS -------------------------> */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* <------------- Font ------------> */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+
+
+/* <------------- Wellcome Section style -------------> */
+
+.wellcome{
+    padding: 58px 170px 0px 170px;
+    width: 100%;
+    height: 600px;
+    background-color: #87509c;
+    text-align: center;
+}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
+    margin-top: 2px;
+    margin-top: 15px;
+}
+.head > .menu > ul > li{
+    list-style-type: none;
+    display: inline-block;
+}
+.head > .menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.head > .menu > ul > li > a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: gray;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+/* <++++++++++ Wellcome home-text +++++++++> */
+
+.home-text{
+    margin-top: 130px;
+    text-align: center;
+}
+.home-text > p{
+    color: white;
+    margin-top: 1px;
+    font-size: 42px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.wellcome > button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 55px;
+    width: 295px;
+    height: 70px;
+    font-size: 18px;
+    background-color: #eb7d4b;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* <----------------- End Wellcome Section ----------------> */
+
+/* <----------------- Services Section style --------------> */
+
+.services{
+    padding: 119px 170px 0px 170px;
+    width: 100%;
+    height: 745px;
+    background-color: #17c2a4;
+    text-align: center;
+}
+.services > h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.hrg{
+    width: 10%;
+    height: 5px;
+    margin-left: 45%;
+}
+.services > p{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.services > .services-images {
+    margin-top: 80px;
+}
+.services-text{
+    padding-top: 50px;
+}
+.services-text > .col-3 > .head{
+    font-size: 24px;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.services-text > .col-3 > .body{
+    color: white;
+    font-size: 16px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* <------------------- End Services Section -------------> */
+
+/* <------------------- Start Team Member Section ------------> */
+
+.team{
+    padding: 102px 170px 0px 170px;
+    width: 100%;
+    height: 915px;
+    background-color: #e7f1f8;
+    text-align: center;
+}
+.team > h1{
+    text-transform: uppercase;
+    color: black;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.team > p{
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.team > .team-images {
+    margin-top: 80px;
+}
+.team > .team-text{
+    padding-top: 50px;
+}
+.team > .col-3 > .head{
+    font-size: 24px;
+    color: black;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.team-text > .col-3 > h6{
+    color: #53b7db;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.team-text > .col-3 > .body{
+    color: black;
+    font-size: 16px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.team-text > .col-3 > .social-icon{
+    margin-top: 31px;
+}
+.team-text > .col-3 > .social-icon > .icon{
+    width: auto;
+    height: auto;
+}
+
+/* <------------------- End Team Section -------------> */
+
+/* <------------------- Start Skill Section ------------> */
+
+.skill{
+    padding: 119px 170px 0px 170px;
+    width: 100%;
+    height: 660px;
+    background-color: white;
+    text-align: center;
+}
+.skill > h1{
+    color: black;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.skill > p{
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "Titillium Web", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+.skill-images{
+    padding-top: 75px;
+}
+.skill-images > .col-3 > p{
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* <------------------- End Skill Section -------------> */
+
+/* <------------------- Start Portfolio Section ------------> */
+
+.portfolio{
+    padding: 119px 170px 0px 170px;
+    width: 100%;
+    height: 1430px;
+    background-color: #ffdd99;
+    text-align: center;
+}
+.portfolio > h1{
+    color: black;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.portfolio > p{
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ----------- list ---------- */
+
+.portfolio > ul{
+    margin-top: 60px;
+}
+.portfolio > ul > li{
+    list-style-type: none;
+    display: inline-block;
+}
+.portfolio > ul > li > a{
+    text-decoration: none;
+    background-color: #ebc985;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.portfolio > ul > li > a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition-duration: 0.50s;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* --------- img 4 --------- */
+
+.img4{
+    padding-top: 50px;
+}
+.img4 > .col-6 > p{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pic{
+    width: 100%;
+    height: auto;
+}
+
+/* ------- button --------- */
+.portfolio > button{
+    margin-top: 30px;
+    background-color: #17c2a4;
+    border-radius: 8px;
+    padding: 25px 60px;
+    border: none;
+    /* box-shadow: 0px 0px 30px #17c2a4; */
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.portfolio > button:hover{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 25px 60px;
+    border: none;
+    box-shadow: 0px 0px 30px red;
+    transition-duration: 1s;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* <------------------- End Portfolio Section -------------> */
+
+/* <------------------- Start People About Section ----------> */
+
+.people-about {
+    padding: 130px 170px 130px 170px;
+    width: 100%;
+    height: 895px;
+    background-color: #d74680;
+    text-align: center;
+}
+.people-about > h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.people-about > p{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.people-about > .people2{
+    margin-top: 65px;
+    text-align: left;
+    display: inline-flex;
+    color: white;
+}
+.people-about > .people4{
+    margin-top: 140px;
+    text-align: left;
+    display: inline-flex;
+    color:white;
+
+}
+.people2 > .col-6 , .people4 > .col-6{
+    display: inline-flex;
+}
+.people2 > .col-6 > div:nth-child(2) , .people4 > .col-6 > div:nth-child(2){
+    margin-left: 40px;
+}
+.comment{
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.name{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.surname{
+    color: #fac996;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* <------------------- End People About Section -------------> */
+
+/* <------------------- Start Get In Touch Section ----------> */
+
+.touch {
+    padding: 115px 170px 0px 170px;
+    width: 100%;
+    height: 822px;
+    background-color: #3c5499;
+    text-align: center;
+}
+.touch > h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.touch > .hrg{
+    width: 10%;
+    height: 5px;
+    margin-left: 45%;
+    /* margin-right: 50%; */
+    border-color: red;
+
+}
+.touch > p{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form > div{
+    margin-top: 80px;    
+}
+form > div > input:first-child{
+    width: 432px;
+    border-radius: 5px;
+    border: none;
+    background-color: #273a71;
+    color: white;
+    padding-left: 20px;
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form > div > input:nth-child(2){
+    width: 432px;
+    border-radius: 5px;
+    border: none;
+    background-color: #273a71;
+    color: white;
+    padding-left: 20px;
+}
+
+form > textarea{
+    width: 870px;
+    height: 205px;
+    margin-top: 27px;
+    border: none;
+    border-radius: 5px;
+    background-color: #273a71;
+    padding: 20px;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form > button{
+    margin-top: 60px;
+    padding: 25px 85px;
+    background-color: #30bae7;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+/* <------------------- Foter Get In Touch Section ----------> */
+
+/* <----------------------- Start Foter Section -------------> */
+
+.foter{
+    background-color: #344b8e;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.foter > ul{
+    padding-top: 40px;
+}
+.foter > ul > li{
+    list-style-type: none;
+    display: inline-block;
+}
+.foter > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font:24px bold;
+    padding: 10px 25px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.foter > ul > li > a:hover{
+    text-decoration: none;
+    color: white;
+    font:24px bold;
+    padding: 10px 25px;
+    box-shadow: 0px 0px 40px red;
+    transition-duration: 1s;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
